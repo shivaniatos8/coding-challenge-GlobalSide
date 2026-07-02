@@ -54,7 +54,13 @@ This challenge needs to be completed in **Java** with **Spring Boot**. You must 
 
 You are required to extend this project to fulfill the above requirements. At the end of the challenge, the project must compile and include tests that ensure the expected RBAC functionality is correctly implemented.
 
-## Authentication
+
+
+## Security Task Related Information
+### Added Features
+1. Added new package securityconfig, with file name SecurityConfig.java which contains security related logic.
+2. Extended RbacChallengeApplicationTests in test folder.
+3. Added Documentation Folder-You can find testcases here.
 
 ### Admin Credentials
 admin/admin123
@@ -65,4 +71,5 @@ user/user123
 ## Running with docker
 
 docker build -t rbac-app .
+
 docker run -p 8081:8081 rbac-app
