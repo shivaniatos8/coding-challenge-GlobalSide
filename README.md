@@ -53,3 +53,16 @@ This challenge needs to be completed in **Java** with **Spring Boot**. You must 
     - Endpoints are currently **unprotected**.
 
 You are required to extend this project to fulfill the above requirements. At the end of the challenge, the project must compile and include tests that ensure the expected RBAC functionality is correctly implemented.
+
+## Authentication
+
+### Admin Credentials
+admin/admin123
+
+### User Credentials
+user/user123
+
+## Running with docker
+
+docker build -t rbac-app .
+docker run -p 8081:8081 rbac-app
