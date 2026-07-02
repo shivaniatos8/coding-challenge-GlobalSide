@@ -56,11 +56,13 @@ You are required to extend this project to fulfill the above requirements. At th
 
 
 
-## Security Task Related Information
-### Added Features
-1. Added new package securityconfig, with file name SecurityConfig.java which contains security related logic.
-2. Extended RbacChallengeApplicationTests in test folder.
+## RBAC Task Related Information
+### Implemented Features
+1. Added new package securityconfig, with file name SecurityConfig.java which contains spring security basic authentication.
+2. Extended RbacChallengeApplicationTests containing test covering RBAC scenarios.
 3. Added Documentation Folder-You can find testcases here.
+4. Exception handling for authorization and resource-related errors in exception → GlobalExceptionHandler.
+5. DockerFile support for application deployment.
 
 ### Admin Credentials
 admin/admin123
